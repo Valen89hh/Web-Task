@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Notes</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="flex-col flex-center">
+      <div class="container">
+        <form class="flex-col flex-center">
+          <h1 class="title-note">Mis Notas</h1>
+          <textarea
+            name=""
+            id="txtNote"
+            cols="30"
+            rows="8"
+            placeholder="Algo para recordar"
+          ></textarea>
+          <button class="btn-primary" id="btnCreate">Crear</button>
+        </form>
+
+        <ol id="listNotes">
+          <li>
+            <article class="note">
+              <h3>Mi primera tarea</h3>
+              <button>Borrar</button>
+            </article>
+          </li>
+          <li>
+            <article class="note">
+              <h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                dicta minima totam odio accusamus blanditiis possimus quas amet
+                vero dignissimos exercitationem odit nihil nostrum iste
+                provident corrupti quibusdam, sit rem!
+              </h3>
+              <button>Borrar</button>
+            </article>
+          </li>
+          <li>
+            <article class="note">
+              <h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                dicta minima totam odio accusamus blanditiis possimus quas amet
+                vero dignissimos exercitationem odit nihil nostrum iste
+                provident corrupti quibusdam, sit rem!
+              </h3>
+              <button>Borrar</button>
+            </article>
+          </li>
+          <li>
+            <article class="note">
+              <h3>Mi primera tarea</h3>
+              <button>Borrar</button>
+            </article>
+          </li>
+        </ol>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
