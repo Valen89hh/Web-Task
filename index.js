@@ -20,6 +20,7 @@ function Note(text, id) {
     listNotes.removeChild(noteRemove);
   });
 
+
   article.appendChild(h3);
   article.appendChild(btn);
 
@@ -36,5 +37,6 @@ btnCreate.addEventListener("click", (e) => {
     const note = Note(txtNote.value, newId);
     notes.push(note);
     listNotes.appendChild(note);
+    txtNote.value = ""
   }
 });
